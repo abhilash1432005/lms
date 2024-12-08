@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+ 
+* {
+   box-sizing: border-box;
+}
+body {
+  background-image: url('static/image.jpg');
+  background-size: cover; /* Adjust as needed */
+  background-repeat: no-repeat; /* Adjust as needed */
+}
+
+body {
+  background-color: lightblue;
+}
+body
+{
+  background-color: whitesmoke;
+}
+/* styles.css */
+body {
+    background-image: url('employee.jpg'); /* Replace 'background-image.jpg' with the path to your background image */
+    background-size: cover; /* This makes the background image cover the entire page */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    background-attachment: fixed; /* Fixes the background image so it doesn't scroll with the page */
+}
+
+.login-form {
+    background-color: rgba(255, 255, 255, 0.8); /* Adds a semi-transparent white background to the form */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Adds a box shadow to the form for a 3D effect */
+}
+
+/* Add more styles for your login form elements (e.g., input fields, buttons, etc.) as needed */
+
+
+ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  min-height: 10px;
+  overflow: hidden;
+  border-radius: 100px;
+
+ 
+}
+
+li 
+{
+  float: left;
+   
+}
+
+li a 
+{
+  display: block;
+  color:#212121;
+ font-size:18px;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+.active
+{
+background-color: black;
+color: cyan;
+}
+li a:hover {
+  background-color:#212121;
+  color: white;
+}
+
+
+.blink {
+  animation: blink 1s steps(1, end) infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.button {
+  background-color:f68600;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type=text],input[type=password],input[type=number],input[type=email],
+select,input[type=date],input[type=datetime-local]
+{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+}
+
+label 
+{
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-weight: bold;
+}
+
+input[readonly] 
+{
+            background-color: #f0f0f0; /* Gray background color */
+            color: #555; /* Gray text color */
+            cursor: not-allowed; /* Change cursor to indicate it's not editable */
+}
